@@ -1,5 +1,8 @@
 .App {
+  background-color: #a60e0e;
   text-align: center;
+  padding-left: 25%;
+  padding-right: 25%;
 }
 
 .App-logo {
@@ -28,6 +31,30 @@
   color: #61dafb;
 }
 
+
+.heading {
+  font-family: "Beast";
+
+}
+.message {
+  font-family: "Beast";
+  font-size: 24pt;
+  color: black;
+}
+.selection {
+  font-family: "Beast";
+  font-size: 18pt;
+  color: black;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+.btn {
+  font-family: "Beast";
+  color: black;
+}
+h1 {
+  font-size: 6em;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +62,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  background-color: #a60e0e;
 }
